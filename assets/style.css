@@ -1,0 +1,46 @@
+header {
+    height: 100px;
+    background: aquamarine;
+}
+section {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 20%;
+    background: greenyellow;
+}
+
+.content {
+    margin: 10px;
+    border: solid 3px lightblue;
+    padding: 10px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.productCard {
+
+    width: 200px;
+    height: fit-content;
+
+    padding: 10px;
+    margin: 5px;
+
+    -webkit-box-shadow: 12px 14px 15px 1px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 12px 14px 15px 1px rgba(34, 60, 80, 0.2);
+    box-shadow: 12px 14px 15px 1px rgba(34, 60, 80, 0.2);
+
+    border: solid 1px lightgrey;
+}
+.productImg {
+    width: 100%;
+}
+.priceBlock {
+    display: flex;
+    justify-content: space-around;
+}
+h3 {
+    border-bottom: solid 1px black;
+}
